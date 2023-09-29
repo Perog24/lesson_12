@@ -4,12 +4,16 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "none"
+    "test": "none",
+    "start": "nodemon ."
   },
   "repository": {
     "type": "git",
-    "url": "homeWork_12"
+    "url": "/Perog24/lesson_12"
   },
   "author": "Perizhok A",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

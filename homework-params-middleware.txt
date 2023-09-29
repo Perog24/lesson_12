@@ -1,0 +1,14 @@
+Створіть API онлайн-магазину.
+Список товарів зберігається не в базі даних, а масивом в окремому файлі.
+
+API повинен мати 3 роути:
+1) Повертає список всіх товарів
+
+2) Повертає один товар на основі айді ( Route parameters: /:id )
+https://expressjs.com/en/guide/routing.html
+
+3) Фільтує товари за назвою та ціною ( Query parameters: ?key=value )
+https://expressjs.com/en/4x/api.html#req.query
+
+Використайте Middleware для валідації параметрів на роутах.
+Крім валідації, middleware має робити приведення типів (string => number) для id та ціни.
